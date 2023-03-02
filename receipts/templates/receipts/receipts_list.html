@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Receipts</title>
-</head>
-<body>
+{% extends 'base.html' %}
+
+{% block title %}Receipts{% endblock title %}
+
+{% block content %}
     <main>
         <h1>My Receipts</h1>
         <table>
@@ -34,5 +30,4 @@
             </tbody>
         </table>
     </main>
-</body>
-</html>
+{% endblock content %}
